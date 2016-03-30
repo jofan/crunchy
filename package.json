@@ -1,0 +1,25 @@
+{
+  "name": "crunchy",
+  "version": "0.0.1",
+  "description": "Crunch HTML into structured web sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofan/crunchy.git"
+  },
+  "keywords": [
+    "content"
+  ],
+  "author": "Jofan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jofan/crunchy/issues"
+  },
+  "homepage": "https://github.com/jofan/crunchy#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

@@ -1,0 +1,87 @@
+/* === PAGE HEROS === */
+.hero {
+  overflow: hidden;
+  position: relative;
+  height: 40vh;
+  width: 100vw;
+}
+  .unloaded .animated-bg {
+    opacity: 0.2;
+  }
+  .animated-bg {
+    background-image: url("assets/florence_dome.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*margin-top:-10%;*/
+    /*margin-left:-10%;*/
+    /*transform:scale(0.9);*/
+    opacity: 1;
+    transition:opacity 3s ease-in;
+  }
+  .hero .intro {
+    padding: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .hero h1, .hero h2 {
+    background-color: black;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+    font-weight: 300;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 1.3rem;
+  }
+  .hero p {
+    color: #fff;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .hero .focus-img {
+    background: url("") no-repeat center center;
+    background-size: cover;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+@media only screen and (min-width: 40.063em) {
+  /* === PAGE HEROS === */
+  .hero {
+    height: 80vh;
+  }
+  .hero .intro {
+    /*padding: 0;*/
+  }
+  .hero .tech-img {
+    height: 18rem;
+    width: 18rem; }
+  .hero h1, .hero h2 {
+    /*padding-top: 4.5rem;*/
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding:0.5rem 1rem;
+    text-align: right;
+    float: left;
+    clear: both;
+    font-size: 2.5rem; }
+  .hero h2 {
+    font-size: 2.0rem;
+  }
+  .hero p {
+    text-align: right;
+  }
+}
